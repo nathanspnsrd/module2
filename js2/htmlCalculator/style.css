@@ -1,0 +1,24 @@
+  
+body {
+    text-align: center;
+    background-color: beige;
+}
+
+h1 {
+    padding: 20px;
+}
+
+#add {
+    background-color: bisque;
+    padding: 20px 0px;
+}
+
+#subtract {
+    background-color: burlywood;
+    padding: 20px 0px;
+}
+
+#multiply {
+    background-color: brown;
+    padding: 20px 0px;
+}

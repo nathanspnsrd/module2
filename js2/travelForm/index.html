@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nathan's Airline</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <h1>Welcome to Nathan's Airline</h1>
+        <h2>Please enter your information.</h2>
+        <div id="airlineForm">
+            <form name="flightInfo" id="airlineInfoForm">
+                <div class="inputItem">
+                    First Name: <input name="firstName" type="text"/>
+                </div>
+                <div class="inputItem">
+                    Last Name: <input name="lastName" type="text"/>
+                </div>
+                <div class="inputItem">
+                    Age: <input name="age" type="number"/>
+                </div>
+                <div class="inputItem">
+                    Gender: 
+                    Male<input name="gender" type="radio" value="Male"/>
+                    Female<input name="gender" type="radio" value="Female"/>
+                    Prefer not to say<input name="gender" type="radio" value="preferNot"/>
+                </div>
+                <div class="inputItem">
+                    Destination:
+                     <select name="select" placeholder="Select a Destination">
+                         <option value="" disable selected hidden>Please select a Destination:</option>
+                         <option name="location" value="Timbuktu">Timbuktu</option>
+                         <option name="location" value="Hell">Hell</option>
+                         <option name="location" value="Provo">Provo</option>
+                     </select>
+                </div>
+                <div class="inputItem">
+                    Dietary Restrictions:
+                    Vegetarian <input name="diet" type="checkbox" value="Vegetarian">
+                    Kosher <input name="diet" type="checkbox" value="Kosher">
+                    Carnevor <input name="diet" type="checkbox" value="Carnevor">
+                </div>
+                <button id="button">Submit</button>
+            </form>
+        </div>
+        <p>***Please email test@gmail.com with any questions.***</p>
+        <script src="main.js"></script>
+    </body>
+</html>

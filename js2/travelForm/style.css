@@ -1,0 +1,20 @@
+body {
+    background-color: lightyellow;
+    text-align: center;
+}
+
+#airlineInfoForm {
+   border: solid 2px lightblue;
+   padding: 20px 0px;
+}
+
+.inputItem {
+    padding: 3px;
+}
+
+#button {
+    padding: 5px;
+    margin: 10px 0px;
+    background-color: lightblue;
+    border-radius: 5px;
+}

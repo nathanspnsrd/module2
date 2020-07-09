@@ -7,7 +7,7 @@ body {
     font-size: larger;
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(14, auto);
+    grid-template-rows: repeat(10, auto);
 }
 
 ul {
@@ -110,5 +110,117 @@ img {
 }
 
 
-
+/* If you have a smaller screen */
+@media (max-width: 1000px) {
+    body {
+        background-color: lightblue;
+    }
+    
+    .container {
+        text-align: center;
+        font-size: larger;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(10, auto);
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    img {
+        width: 400px;
+        border-radius: 10px;
+    }
+    
+    #header {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+    }
+    
+    .goomba {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        margin: 10px;
+    }
+    
+    #goombaName {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    
+    #goombaPrice {
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+    
+    #goombaInput {
+        grid-column: 2 / 3;
+        grid-row: 5 / 6;
+        height: 20px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    
+    .bob {
+        grid-column: 2 / 3;
+        grid-row: 6 / 7;
+        margin: 10px;
+    }
+    
+    #bobName {
+        grid-column: 2 / 3;
+        grid-row: 7 / 8;
+    }
+    
+    #bobPrice {
+        grid-column: 2 / 3;
+        grid-row: 8 / 9;
+    }
+    
+    #bobInput {
+        grid-column: 2 / 3;
+        grid-row: 9 / 10;
+        height: 20px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    
+    .cheep {
+        grid-column: 2 / 3;
+        grid-row: 10 / 11;
+        margin: 10px;
+    }
+    
+    #cheepName {
+        grid-column: 2 / 3;
+        grid-row: 11 / 12;
+    }
+    
+    #cheepPrice {
+        grid-column: 2 / 3;
+        grid-row: 12 / 12;
+    }
+    
+    #cheepInput {
+        grid-column: 2 / 3;
+        grid-row: 13 / 14;
+        height: 20px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    
+    #submit {
+        grid-column: 2 / 3;
+        grid-row: 14 / 15;
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    
+    #totals {
+        grid-column: 1 / -1;
+        grid-row: 15 / 16;
+    }
+}
 

@@ -7,10 +7,12 @@ let arr = [3, 6, 8, 2]
 // const result = arr.filter(num => num % 2 === 0)
 // console.log(result)
 
+
 let arrOfStrings = ["dog", "wolf", "by", "family", "eaten", "camping"]
 //3
 // const result = arrOfStrings.filter(string => string.length <= 5)
 // console.log(result)
+
 
 let people = [
     { name: "Angelina Jolie", member: true },
@@ -22,6 +24,7 @@ let people = [
 //4
 // const result = people.filter(person => person.member)
 // console.log(result)
+
 
 let peopleNew = [
     { name: "Angelina Jolie", age: 80 },

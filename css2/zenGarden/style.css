@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Julius Sans One";
+    src: url(fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Libre Baskerville-regular";
+    src: url(fonts/Libre_Baskerville-Reular.ttf);
+}
+
+@font-face {
+    font-family: "Libre Baskerville-Italic";
+    src: url(fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf)
+}
+
+@font-face {
+    font-family: "verdemoderna";
+    src: url(fonts/verdemoderna.woff);
+}
+
+/*For regular computer screen*/
+body {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+h3 {
+    color: #28484C;
+    font: 28.8px "Julius Sans One", sans-serif;
+}
+
+abbr {
+    text-decoration-skip-ink: none;
+}
+
+
+/*Items in header*/
+header {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background-image: url("images/contours@2x.png"), url("images/noise.png"), url("images/gridlines.png"), url("images/huntington.jpeg");
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+#curlyImg {
+    height: 100px;
+}
+
+#title {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+#viewAll {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+
+/*Items in the body*/
+main {    
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    color: #325050;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+main p {
+    color: #325050;
+    font: 16px "Libre Baskerville-regular";
+    padding: 16px 72px 0px 144px;
+    line-height: 35px;
+}
+
+main h3 {
+    padding: 16px 72px 0px 144px;
+}
+
+main div {
+    padding: 34px 0px 64px 0px;
+}
+
+main a {
+    text-decoration: none;
+    transition: color .25s;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration-skip-ink: none;
+}
+
+#definition {
+    text-decoration: underline dotted;
+}
+
+#mainLink {
+    color: #0D8BA1;
+}
+
+#downloadArrow {
+    color: #809b7e;
+    font-family: "verdemoderna";
+}
+
+#download {
+    color: #809b7e;
+    font-family: "Julius Sans One";
+}
+
+#download:hover {
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    background-color: #0d8ba1;
+}
+
+#download:hover #downloadArrow {
+    text-decoration: none;
+    color: white;
+    background-color: #0d8ba1;
+}
+
+#upperLeft {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    
+}
+
+#upperRight {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-color: #e5ede8;
+}
+
+#middle {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    background-color: rgba(138, 188, 159, .5);
+    background-image: url("images/contours-opaque.png"), url("images/gridlines-opaque.png"), url("images/bamboo.png");
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+#middleLeft {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+#middleLeft a {
+    color: #0D8BA1;
+}
+
+#middleRight {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    padding: 100px 0px 0px 75px;
+    background-color: rgba(138, 188, 159, .2); 
+}
+
+#middleRight a {
+    color: #607476;
+    font: 17.28px "Julius Sans One"
+}
+
+#middleRight a:hover {
+    text-decoration: none;
+    color: #0d8ba1;
+}
+
+#middleRight div {
+    padding: 25px 0px 25px 0px;
+    border-top: 1px solid #607476;
+    width: 15em;
+}
+
+#translations {
+    border-bottom: 1px solid #607476;
+}
+
+#lowerLeft {
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
+}
+
+#lowerRight {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: #e5ede8;
+}
+
+
+/*Items in footer*/
+footer {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+    background-color: #134347;
+    text-align: center;
+    color: rgba(255, 255, 255, .4);
+    font: 32px "Libre Baskerville-Italic";
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+#footerLink {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .7);
+    font: 32px "Libre Baskerville-Regular";
+}
+
+#footerLink:hover {
+    text-decoration: underline;
+}
+
+#footerLink:visited {
+    color: rgba(255, 255, 255, .7);
+    font: 32px "Libre Baskerville-Regular";
+}
+
+#credit {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background-image: url("images/contours-opaque.png"), url("images/gridlines.png"), url("images/noise.png"), url("images/koi.jpg");
+    padding: 4em 10%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "verdemoderna";
+    transition: color .25s;
+    font-size: 65px;
+    padding: 0px 45px 0px 45px
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer a:visited {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3)
+}
+
+#validateHTML::before {
+    content: "5";
+}
+
+#validateHTML:hover::before {
+    content: "%";
+}
+
+#validateCSS::before {
+    content: "3";
+}
+
+#validateCSS:hover::before {
+    content: "#";
+}
+
+#creativeLicense::before {
+    content: "c";
+}
+
+#creativeLicense:hover::before {
+    content: "C";
+}
+
+#accessibility::before {
+    content: "a";
+}
+
+#accessibility:hover::before {
+    content: "A";
+}
+
+#github::before {
+    content: "g";
+}
+
+#github:hover::before {
+    content: "g";
+}
+
+#mediaLinks {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    padding: 2em 10%
+}
+
+
+/*Make responsive for screen size*/

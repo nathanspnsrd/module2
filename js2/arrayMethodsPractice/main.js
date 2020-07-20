@@ -73,7 +73,7 @@ filterdPeople.sort((a, b) => (a.lastName > b.lastName) ? 1 : -1)
 
 
 // Return the array in reverse order.
-// filterdPeople.sort((a, b) => (a.lastName > b.lastName) ? -1: 1)
+// filterdPeople.sort((a, b) => (a.lastName > b.lastName) ? -1 : 1)
 
 
 // Remove the second individual from the array.
@@ -81,7 +81,7 @@ filterdPeople.sort((a, b) => (a.lastName > b.lastName) ? 1 : -1)
 
 
 // Create a function that filters out all people who's last names end with "y" or "a" and save those people in another array.
-const withoutY = filterdPeople.filter(person => person.lastName.slice(-1) !== ("y" || "d"))
+const withoutY = filterdPeople.filter(person => (person.lastName.slice(-1) !== "y") && (person.lastName.slice(-1) !== "d"))
 
 
 //Puts the array into a string that looks like <html> list item

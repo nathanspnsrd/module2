@@ -3,17 +3,20 @@
     <head>
         <title>CSS Zen Garden: The Beauty of CSS Design</title>
         <link rel="stylesheet" href="style.css"></link>
-        <link id="curlyImg" rel="icon" href="http://www.csszengarden.com/214/enso.svg">
+        <link id="curlyImgIcon" rel="icon" href="http://www.csszengarden.com/214/enso.svg">
     </head>
     <body>  
         <header>
             <div id="title">
                 <img src="http://www.csszengarden.com/214/enso.svg" id="curlyImg">
-                <h1>CSS ZEN GARDEN</h1>
-                <h2>The Beauty of CSS Design</h2>    
+                <div id="titles">
+                    <h1>CSS ZEN GARDEN</h1>
+                    <h2>The Beauty of CSS Design</h2>
+                </div>        
             </div>
             <div id="viewAll">
-                VIEW ALL DESIGNS
+                <a href="http://www.mezzoblue.com/zengarden/alldesigns/">VIEW ALL DESIGNS</a>
+                <button>></button>
             </div>
         </header>
         <main>
@@ -29,7 +32,13 @@
                 <p><abbr id="definition" title="Cascading Style Sheet">CSS</abbr> allows complete and total control over the style of a hypertext document. The only way this can be illustrated in a way that gets people excited is by demonstrating what it can truly be, once the reins are placed in the hands of those able to create beauty from structure. Designers and coders alike have contributed to the beauty of the web; we can always push it further.</p>   
             </div>
             <div id="upperRight">
-                Links to other pages
+                <div id="otherPages">
+                    <a href="http://www.csszengarden.com/221/"><h4>MID CENTURY MODERN</h4></a>
+                    by <a href="http://andrewlohman.com/"> Andrew Lohman</a>
+                </div>
+                <div>
+                    What we would do with subsequent links is to manipulate the dom whenever the arrow next to "VIEW ALL DESIGNS" is clicked.
+                </div>
             </div>
             <section id="middle">
                 <div id="middleLeft">

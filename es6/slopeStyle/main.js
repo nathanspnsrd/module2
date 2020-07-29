@@ -1,3 +1,4 @@
+'use strict'
 // //Green Circle
 // const collectAnimals = (...animals) => animals
 
@@ -6,18 +7,18 @@
 
 
 
-const combineFruit = (fruit, sweets, vegetables) => {
-    return {
-        fruit:
-        sweets: 
-        vegetables:
-    }
-}
+// const combineFruit = (fruit, sweets, vegetables) => {
+//     return {
+//         fruit,
+//         sweets, 
+//         vegetables,
+//     }
+// }
 
 
-combineFruit(["apple", "pear"],
-             ["cake", "pie"],
-             ["carrit"])
+// console.log(combineFruit(["apple", "pear"],
+//              ["cake", "pie"],
+//              ["carrit"]))
 
 
 // const vacation = {  
@@ -60,9 +61,9 @@ combineFruit(["apple", "pear"],
 
 
 //Black Diamond
-let numbers = [a,b,c,d,e]
-const product = (a, b, c, d, e) => numbers.reduce((acc, number) => acc * number, 1)
-console.log(product(numbers))
+
+// const product = (...numbers) => numbers.reduce((acc, number) => acc * number, 1)
+// console.log(product(1,2,3,3,4))
 
 // const unshift = (arr, ...second) => {  
 //     return [...second, ...arr] ;
@@ -74,19 +75,16 @@ console.log(product(numbers))
 
 //Double black
 
-function populatePeople(names){
-    return names.map(function(name){
-        name = name.split(" ");
-        firstName = name[0]
-        lastName = name[1]
+const populatePeople = (names) => names.map(name => {
+        const [firstName, lastName] = name.split(" ")
         return {
-            firstName: firstName,
-            lastName: lastName
+            firstName,
+            lastName
         }
     })
-}
 
-populatePeople(["Frank Peterson", "Suzy Degual", "Liza Jones"])
+console.log(populatePeople(["Frank Peterson", "Suzy Degual", "Liza Jones"]))
+
 //[
 //  {firstName: "Frank", lastName: "Peterson"},
 //  {firstName: "Suzy", lastName: "Degual"},

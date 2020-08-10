@@ -1,0 +1,67 @@
+{
+    "appetizers": [
+        {
+            "name": "Fried Peanuts",
+            "whatsInIt": "Peanuts",
+            "description": "Exactly how they sound."
+        },
+        {
+            "name": "Turnips",
+            "whatsInIt": "Turnips",
+            "description": "It's not really an appetizers."
+        },
+        {
+            "name": "Onion Rings",
+            "whatsInIt": "Onions",
+            "description": "Finally, we are back in America!."
+        }
+    ],
+    "coldSandwiches": [
+        {
+            "name": "Beggie",
+            "whatsInIt": ["Bacon", "Vegtables"],
+            "description": "For people who don't care about being a vegetarian."
+        },
+        {
+            "name": "Tuna Salad",
+            "whatsInIt": "Tuna",
+            "description": "Tasty"
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "name": "hBeggie",
+            "whatsInIt": ["Bacon", "Vegtables"],
+            "description": "For people who don't care about being a vegetarian and want a hot sandwich."
+        },
+        {
+            "name": "hTuna",
+            "whatsInIt": ["Tuna", "Vegtables", "otherStuff"],
+            "description": "hot and tasty."
+        }
+    ],
+    "desserts": [
+        {
+            "name": "iceCream",
+            "whatsInIt": "cream",
+            "description": "Simple Ice Cream."
+        },
+        {
+            "name": "iceCreamSandwich",
+            "whatsInIt": ["cream", "Bread"],
+            "description": "Not a meal."
+        }
+    ],
+    "drinks": [
+        {
+            "name": "beer aka: Nector of the gods.",
+            "whatsInIt": ["hops", "wheat", "yeast"],
+            "description": "Will make you feel better."
+        },
+        {
+            "name": "feelGood",
+            "whatsInIt": "whiskey",
+            "description": "Not a meal."
+        }
+    ]
+}

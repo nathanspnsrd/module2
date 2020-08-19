@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    background-color: lavender;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+li {
+    border: 1px solid lavender;
+    border-radius: 7px;
+    margin: 20px;
+    padding: 10px;
+}
+
+input {
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin: 0px 0px 0px 10px;
+    vertical-align: middle;
+}
+
+button {
+    border-radius: 5px;
+    background-color: plum;
+    padding: 5px;
+}
+
+
+#listItems {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: disc;
+    border: 1px solid purple;
+    border-radius: 10px;
+    background-color: plum;
+}
+
+#addItem {
+    width: 100px
+}
+
+#checkBox {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+
+#deleteButton {
+    border-color: purple;
+    margin: 0px 10px;
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

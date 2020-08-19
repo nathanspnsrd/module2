@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My ToDo List</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <h1>Things To Do</h1>
+        <main>
+            <div>
+                <ul id="listItems">
+                </ul>
+            </div>
+            <form id="form" class="hide" name="toDoForm">
+                <input name="title" placeholder="Title" required/>
+                <input name="description" placeholder="Description" required/>
+                <input name="price" placeholder="Price" required type="number"/>
+                <input name="imgUrl" placeholder="Image Url"/>
+                <button id="submitButton">Submit</button>
+            </form>
+            <button id="addItem">Add Another Item</button>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+            <script src="main.js"></script>
+        </main>   
+    </body>
+</html>

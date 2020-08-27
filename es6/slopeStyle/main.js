@@ -49,15 +49,15 @@
 
 //Blue Square
 
-// const realAnimals = ["dog", "cat", "mouse"];
-// const magicalAnimals = ["jackolope"];
-// const mysteriousAnimals = ["platypus"];
+const realAnimals = ["dog", "cat", "mouse"];
+const magicalAnimals = ["jackolope"];
+const mysteriousAnimals = ["platypus"];
 
-// const combineAnimals = () => {
-//     return [ ...realAnimals, ...magicalAnimals, ...mysteriousAnimals ]
-// }
+const combineAnimals = () => {
+    return [ ...realAnimals, ...magicalAnimals, ...mysteriousAnimals ]
+}
 
-// console.log(combineAnimals(realAnimals, magicalAnimals, mysteriousAnimals)); 
+console.log(combineAnimals(realAnimals, magicalAnimals, mysteriousAnimals)); 
 
 
 //Black Diamond

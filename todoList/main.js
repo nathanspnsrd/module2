@@ -40,6 +40,7 @@ function getAxiosData() {
                         axios.delete(`https://api.vschool.io/nathan1/todo/${response.data[i]._id}`)
                             .then(response => {
                                 alert("Your todo was successfully deleted!")
+                                //newItem.remove()
                             })
                             .catch(function(response) {
                                 alert("There was a problem deleting your todo :(");

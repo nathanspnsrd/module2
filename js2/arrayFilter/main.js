@@ -26,7 +26,8 @@ let people = [
 // console.log(result)
 
 
-let peopleNew = [
+
+const peopleNew = [
     { name: "Angelina Jolie", age: 80 },
     { name: "Eric Jones", age: 2 },
     { name: "Paris Hilton", age: 5 },
